@@ -297,7 +297,7 @@ function MessageList(props) {
                   flexDirection: 'row',
                 }}
               >
-                <a href={`https://github.com/${mensagem.de}`} target="_blank" style="text-decoration:none">
+                <a href={`https://github.com/${mensagem.de}`} target="_blank" style={{ textDecoration: 'none' }}>
                   <Image
                     styleSheet={{
                       width: '30px',
