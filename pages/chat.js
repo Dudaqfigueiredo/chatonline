@@ -297,36 +297,40 @@ function MessageList(props) {
                   flexDirection: 'row',
                 }}
               >
-                <Image
-                  styleSheet={{
-                    width: '30px',
-                    height: '30px',
-                    borderRadius: '50%',
-                    display: 'inline-block',
-                    marginRight: '8px',
-                    hover: {
-                      width: '35px',
-                      height: '35px',
-                    },
-                  }}
-                  src={`https://github.com/${mensagem.de}.png`}
-                />
-                <Text tag="strong">
-                  <Text
-                    tag="a"
-                    href={`https://github.com`}
-                    target="_blank"
+                <a href={`https://github.com/${mensagem.de}.png`} target="_blank">
+                  <Image
                     styleSheet={{
-                      color: appConfig.theme.colors.neutrals[200],
-                      textDecoration: 'none',
+                      width: '30px',
+                      height: '30px',
+                      borderRadius: '50%',
+                      display: 'inline-block',
+                      marginRight: '8px',
                       hover: {
-                        color: appConfig.theme.colors.primary[550],
+                        width: '35px',
+                        height: '35px',
                       },
                     }}
-                  >
-                    {mensagem.de}
+                    src={`https://github.com/${mensagem.de}.png`}
+                  />
+                </a>
+                <a href={`https://github.com/${mensagem.de}.png`} target="_blank">
+                  <Text tag="strong">
+                    <Text
+                      tag="a"
+                      href={`https://github.com`}
+                      target="_blank"
+                      styleSheet={{
+                        color: appConfig.theme.colors.neutrals[200],
+                        textDecoration: 'none',
+                        hover: {
+                          color: appConfig.theme.colors.primary[550],
+                        },
+                      }}
+                    >
+                      {mensagem.de}
+                    </Text>
                   </Text>
-                </Text>
+                </a>
                 <Text
                   styleSheet={{
                     fontSize: '10px',
