@@ -297,7 +297,7 @@ function MessageList(props) {
                   flexDirection: 'row',
                 }}
               >
-                <a href={`https://github.com/${mensagem.de}`} target="_blank">
+                <a href={`https://github.com/${mensagem.de}`} target="_blank" style="text-decoration:none">
                   <Image
                     styleSheet={{
                       width: '30px',
@@ -313,7 +313,7 @@ function MessageList(props) {
                     src={`https://github.com/${mensagem.de}.png`}
                   />
                 </a>
-                <a href={`https://github.com/${mensagem.de}`} target="_blank">
+                <a href={`https://github.com/${mensagem.de}`} target="_blank" style="text-decoration:none">
                   <Text tag="strong">
                     <Text
                       tag="a"
