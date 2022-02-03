@@ -313,7 +313,7 @@ function MessageList(props) {
                     src={`https://github.com/${mensagem.de}.png`}
                   />
                 </a>
-                <a href={`https://github.com/${mensagem.de}`} target="_blank" style="text-decoration:none">
+                <a href={`https://github.com/${mensagem.de}`} target="_blank" style={{ textDecoration: 'none' }}>
                   <Text tag="strong">
                     <Text
                       tag="a"
