@@ -375,7 +375,6 @@ function Musica() {
         {`
           audio {
             margin-top: 1%;
-            margin-left: 2%;
           }
           audio::-webkit-media-controls-enclosure {
             background-color: #bd4cff63;
